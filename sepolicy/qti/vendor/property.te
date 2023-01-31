@@ -12,3 +12,6 @@ vendor_internal_prop(vendor_nw_exported_system_prop)
 
 # WCNSS
 vendor_internal_prop(vendor_vold_prop)
+
+# Aware
+vendor_restricted_prop(vendor_aware_available_prop);
