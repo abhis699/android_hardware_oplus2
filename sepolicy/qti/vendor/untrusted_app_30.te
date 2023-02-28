@@ -1,0 +1,7 @@
+allow untrusted_app_30 adsprpcd_file:dir getattr;
+allow untrusted_app_30 bt_firmware_file:dir getattr;
+allow untrusted_app_30 firmware_file:dir getattr;
+allow untrusted_app_30 firmware_file:filesystem getattr;
+allow untrusted_app_30 metadata_file:dir getattr;
+allow untrusted_app_30 qemu_hw_prop:file read;
+allow untrusted_app_30 qemu_sf_lcd_density_prop:file read;
